@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/__pycache__/
+*.pyc
+.DS_Store
+
+# Environment Variables
+.env
+backend/.env
+frontend/.env
+
+# Build outputs
+frontend/dist/
+*.log
+
+# CSV Data (if you want to keep data out of Git)
+backend/*.csv
+data/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
